@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19a28585-701c-4227-aff5-2d7bc4789074" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Randstad/Dmarc/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Randstad/Dmarc/DataFromExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Randstad/Dmarc/ExportToExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Randstad/Dmarc/HttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Randstad/Dmarc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Data/Opco_Name.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Data/Opco_Name.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DataFromExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExportToExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HttpHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="19a28585-701c-4227-aff5-2d7bc4789074" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
