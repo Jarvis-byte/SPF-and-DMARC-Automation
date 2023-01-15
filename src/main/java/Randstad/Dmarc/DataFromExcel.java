@@ -6,12 +6,13 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class DataFromExcel {
-    public void readData(String excelPath) throws IOException {
+    public void readData(File excelPath) throws IOException {
         FileInputStream inputStream = new FileInputStream(excelPath);
         XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
         XSSFSheet sheet = workbook.getSheet("Sheet1");

@@ -13,8 +13,9 @@ import java.util.ArrayList;
 
 public class ExportToExcel {
     public void export(ArrayList<Data> list) throws IOException {
-        String excelPath = ".\\src\\main\\Data\\Opco_Name.xlsx";
-        FileInputStream inputStream = new FileInputStream(excelPath);
+        File fis = new File("C:\\Users\\arkam\\IdeaProjects\\SPF_And_DMARC_Record\\src\\main\\Data\\Opco_Name.xlsx");
+        //  String excelPath = ".\\src\\main\\Data\\Opco_Name.xlsx";
+        FileInputStream inputStream = new FileInputStream(fis);
         XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
         XSSFSheet sheet = workbook.getSheetAt(0);
         int rows = sheet.getLastRowNum();

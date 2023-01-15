@@ -15,6 +15,7 @@ public class HttpHandler {
 
     public void GetRequest(ArrayList<Data> list) throws IOException {
         System.out.println(list.size());
+
         for (int a = 1; a < list.size(); a++) {
             System.out.println(list.get(a).getDomainName());
             getSpfPolicy(list, a);
